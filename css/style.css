@@ -1,0 +1,282 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .hero-section h1 {
+  color: #1b2b61;                  /* Dark navy color */
+  font-family: 'Poppins', sans-serif; /* Stylish Google Font */
+  line-height: 1.2;
+}
+
+  .hero-section {
+  background: url('assets/images/circle-bg.png') no-repeat left center;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section h2 {
+  font-size: 3.8rem;
+}
+.hero-section h1 {
+  font-size: 4.8rem;
+  color: #1b2b61;                  /* Dark navy color */
+
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    background-position: top left;
+    text-align: center;
+  }
+}
+.services-section {
+  position: relative;
+  background-color: #fff;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.services-header-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.semi-circle-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 0;
+}
+
+.semi-circle-wrapper img {
+  width: 95%;
+  max-width: 1300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+.blue-container {
+  background-color: #21356B;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  max-width: 1200px;
+  color: white;
+  position: relative;
+  z-index: 2;
+  padding-top: 90px;
+  /* padding-bottom: 70px; */
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px 15px;
+  text-align: center;
+  transition: 0.3s ease;
+  height: 100%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.service-card img {
+  width: 36px;
+  margin-bottom: 12px;
+}
+
+.service-card h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1b2b61;
+  margin-bottom: 6px;
+}
+
+.service-card p {
+  font-size: 0.85rem;
+  color: #333;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.service-card:hover {
+  background-color: #324d94;
+  transform: translateY(-5px);
+  color: white;
+}
+
+.service-card:hover h5,
+.service-card:hover p {
+  color: white;
+}
+
+.bottom-sketch img {
+  width: 100%;
+}
+
+  .testimonial-section {
+    background-color: #1b2b61; /* Deep blue background */
+    padding: 80px 20px;
+  }
+  
+  .testimonial-box {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: transparent;
+    height: 100%;
+    min-width: 300px;
+    max-width: 350px;
+  }
+  
+  .testimonial-box i {
+    color: #ffffff;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .row.flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  /* Works on most modern browsers */
+.hide-scrollbar {
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+
+.about-section {
+  position: relative;
+  background-color: #fff;
+  padding: 80px 0;
+  overflow: hidden;
+}
+.about-section h1 {
+ color: #1b2b61;
+}
+.about-section p {
+ color: #1b2b61;
+}
+.about-section a {
+ color: #1b2b61;
+}
+.about-section button {
+ color: #1b2b61;
+}
+
+/* Background SVG Circle */
+.bg-circle-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: auto;
+  z-index: 0;
+  transform: translate(40%, 20%);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Foreground People Sketch */
+.about-people-img {
+  position: relative;
+  z-index: 1;
+  width: 400px;
+  max-width: 100%;
+  transform: translate(20px, 20px);
+}
+
+.why-choose-us-section {
+  position: relative;
+  background-color: #f6f8fc;
+  padding: 80px 0;
+}
+
+.why-card {
+  background-color: #1b2b61;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.why-card h1,
+.why-card h2 {
+  margin: 0;
+}
+
+.why-card h1 {
+  font-size: 2rem;
+}
+
+.why-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.contact-section {
+  background-color: #f9f9f9;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+}
+
+.contact-section .form-control {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.btn-send {
+  background-color: #a5a26e;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn-send:hover {
+  background-color: #8d8a5a;
+}
+
+.contact-icon {
+  font-size: 1.2rem;
+  color: #a5a26e;
+  margin-right: 12px;
+  margin-top: 2px;
+}
+.social-icons a {
+  font-size: 1.5rem;
+  color: #a5a26e;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #8d8a5a;
+}
